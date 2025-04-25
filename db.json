@@ -1,9 +1,58 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "books": [
+    {
+      "id": "1",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": "Self-help",
+      "year": 2018,
+      "favorite": true,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg"
+    },
+    {
+      "id": "2",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Fiction",
+      "year": 1988,
+      "favorite": true,
+      "image": "https://m.media-amazon.com/images/I/71aFt4+OTOL.jpg"
+    },
+    {
+      "id": "3",
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "year": 1949,
+      "favorite": false,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg"
+    },
+    {
+      "id": "6",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Fiction",
+      "year": 1925,
+      "favorite": false,
+      "image": "https://m.media-amazon.com/images/I/81af+MCATTL.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "genre": "History",
+      "year": 2014,
+      "favorite": false,
+      "image": "https://m.media-amazon.com/images/I/713jIoMO3UL.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "genre": "Finance",
+      "year": 1997,
+      "favorite": false,
+      "image": "https://m.media-amazon.com/images/I/81bsw6fnUiL.jpg"
+    }
+  ]
 }
